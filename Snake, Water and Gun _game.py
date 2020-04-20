@@ -1,4 +1,5 @@
 import random
+
 print("This is snake, water and Gun game")
 print("this game will played 10 times. At the end of the game more points will decide the winner.\n")
 print("RULES are:\nBetween Snake and Water___Snakes win\nBetween Snake and Gun___Gun wins\nBetween Water and"
@@ -7,6 +8,7 @@ print("RULES are:\nBetween Snake and Water___Snakes win\nBetween Snake and Gun__
 cscore = 0
 pscore = 0
 i = 1
+
 while i <= 10:
     lst = ["snake", "gun", "water"]
     com = random.choice(lst)
@@ -22,6 +24,7 @@ while i <= 10:
         cscore += 10
         print(f"computer score is {cscore}")
     i += 1
+
 print("\n\n\n")
 print(f"your score is {pscore}")
 print(f"computer score is {cscore}")
