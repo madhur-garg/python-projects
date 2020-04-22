@@ -9,7 +9,7 @@ red = (255,0,0)
 black = (0,0,0)
 
 
-font = pygame.font.SysFont(None, 45)
+font = pygame.font.SysFont(comicsansms, 45)
 clock = pygame.time.Clock()
 
 # Functions
@@ -32,7 +32,7 @@ screen_height = 500
 gameWindow = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption("SnakeWithMadhur")
 
-
+# Welcome window
 def welcome():
     exit_game = False
     while not exit_game:
@@ -48,7 +48,7 @@ def welcome():
                     game_loop()
 
 
-# Game loop
+# Main game loop
 def game_loop():
 
     # Specific variables in game
