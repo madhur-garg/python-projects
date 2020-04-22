@@ -1,5 +1,5 @@
 print("This program will give you the next palindrome of a number.")
-userwants = int(input("How many time you want to test\n"))
+userwants = int(input("How many number you want to test\n"))
 
 for i in range(1, userwants + 1):
     number1 = int(input(f"Enter a number{i}\n"))
