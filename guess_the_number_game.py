@@ -19,7 +19,7 @@ def game_loop():
             print(f"Correct you took {i} trials to guess the number\n")
             print("Player 2:")
 
-            n = random.randint(a + 1, b - 1)
+            n = random.randint(a + 1, b - 1)       # Change the value of n for second player
             j = 1
             while j:
                 num = int(input(f"Please guess the number between {a} and {b}\n"))
