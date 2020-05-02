@@ -1,4 +1,6 @@
 """Python script for search direct from wikipedia (GUI)"""
+"""Before running code please install wikipedia module"""
+"""open terminal and write  pip install wikipedia"""
 
 import wikipedia
 from tkinter import *
